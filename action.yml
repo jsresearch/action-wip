@@ -1,0 +1,9 @@
+# action.yml
+name: 'Salus'
+description: 'Salus SAST Scan'
+outputs:
+  results: # id of output
+    description: 'Results from the scan'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
